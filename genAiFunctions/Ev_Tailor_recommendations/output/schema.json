@@ -1,0 +1,42 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Name" : {
+      "title" : "Name",
+      "description" : "start with recommend this car with Bold letters based on the your needs based on history ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "price" : {
+      "title" : "price",
+      "description" : "stores the price and suggest this Affordable for a high-tech EV packed with goodies. keep this information beside price only",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "range" : {
+      "title" : "range",
+      "description" : "stores the range convince user this is Perfect for city cruises or weekend getaways without range anxiety. keep this information beside range only",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "shortdecription" : {
+      "title" : "shortdecription",
+      "description" : "get the description  analyze the description and make two bullet point for these two categories Save big, live green Safety that’s got your back:",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

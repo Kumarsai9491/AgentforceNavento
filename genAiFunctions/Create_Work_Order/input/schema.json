@@ -1,0 +1,20 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "DateAvaliabilty" : {
+      "title" : "DateAvaliabilty",
+      "description" : "not needed",
+      "lightning:type" : "lightning__dateType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "checkType" : {
+      "title" : "checkType",
+      "description" : "Based on the request type analyse and get the check type value for example if question is related to fuel check type is fuel",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

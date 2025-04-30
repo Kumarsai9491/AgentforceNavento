@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "repairancost" : {
+      "title" : "repairancost",
+      "description" : "Time to talk car care! 🚘\n\n**Your driving style** means some parts might need a swap sooner:\nAnalyze the repairancost value and highlight the part names\n\n**Heads up**: These usually last till the provided kms, but your heavy braking’s speeding things up. Try easing off the pedal for smoother rides! 😎",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

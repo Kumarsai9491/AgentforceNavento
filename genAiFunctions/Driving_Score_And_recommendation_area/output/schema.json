@@ -1,0 +1,24 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Strorethecountofrightside" : {
+      "title" : "Strorethecountofrightside",
+      "description" : "Analyze the Strorethecountofrightside and provide the response in a similar format Your Driving Risk Score is in ,put the driving score in highlighted\n\n**Reason:** The right-side lane departure sensors are lighting up a lot. No stress—here’s how to ace it:\n**Keep an eye on the right** when changing lanes or turning.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "storesthecountonleftside" : {
+      "title" : "storesthecountonleftside",
+      "description" : "Analyze the Strorethecountofrightside and provide the response in a similar format Your Driving Risk Score is in ,put the driving score in highlighted\n\n**Reason:** The left-side lane departure sensors are lighting up a lot. No stress—here’s how to ace it:\n**Keep an eye on the left** when changing lanes or turning.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

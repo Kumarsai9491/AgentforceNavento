@@ -1,0 +1,20 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "MessagingEndUserId" : {
+      "title" : "MessagingEndUserId",
+      "description" : "Get the MessagingEndUserId from the context Variables. don't ask the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "lastnameofuser" : {
+      "title" : "lastnameofuser",
+      "description" : "stores the last name of user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
