@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created to enable custom permission to give access to Object,Flow, Apex</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Enable Custom Permission</label>
+</PermissionSet>
