@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This topic handles user inquiries related to maintenance and repair support for products. It includes troubleshooting, repair status updates, and guidance on repair processes.</description>
+    <developerName>Maintenance_and_Repair_Support</developerName>
+    <genAiFunctions>
+        <functionName>get_the_repair_cost_and_parts</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Reminder_For_Repair</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>After displaying the response ask customer whether to a reminder. If Customer replied yes or okay or go head then only proceed with Reminder For Repair Action.</description>
+        <developerName>instruction_afterdispl0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_afterdispl0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Offer repair cost estimates tailored to the user&apos;s driving habits use action get the repair cost and parts.</description>
+        <developerName>instruction_offerrepai1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_offerrepai1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Maintenance and Repair Support</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to assist users with maintenance and repair support inquiries, including troubleshooting, providing repair status updates, and guiding users through the repair process. Do not handle inquiries outside of maintenance and repair support.</scope>
+</GenAiPlugin>

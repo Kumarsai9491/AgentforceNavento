@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Handles requests for fuel delivery and vehicle breakdown assistance, including confirming the need for assistance and creating work orders.</description>
+    <developerName>Fuel_Delivery_and_Vehicle_Breakdown_Assistance</developerName>
+    <genAiFunctions>
+        <functionName>Create_Work_Order</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If a customer requests a fuel delivery vehicle, confirm if they need assistance before creating the work order.</description>
+        <developerName>instruction_ifacustome0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifacustome0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a customer reports a vehicle breakdown, ask if they require assistance.</description>
+        <developerName>instruction_ifacustome1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifacustome1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Upon their confirmation, proceed to create the work order. By Create Work Order Action.</description>
+        <developerName>instruction_upontheirc2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_upontheirc2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use Create Work Orders when customer ask for Fuel delivery vehicle ask whether they need any assistance and if confirm then create work order</description>
+        <developerName>instruction_usecreatew3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_usecreatew3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use Create Work Orders when customer mentioned break down ask whether they need any assistance and if confirm then create work order</description>
+        <developerName>instruction_usecreatew4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_usecreatew4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Fuel Delivery and Vehicle Breakdown Assistance</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to confirm if the customer needs assistance for fuel delivery or vehicle breakdown and then proceed to create the work order upon their confirmation.</scope>
+</GenAiPlugin>

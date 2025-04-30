@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This topic provides an overview of driving performance and safety metrics, including maximum speed record, current driving risk score, and insights on driving habits.</description>
+    <developerName>Driving_Performance_and_Safety_Metrics</developerName>
+    <genAiFunctions>
+        <functionName>Driving_Score_And_recommendation_area</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Determine whether the user performs better when driving at night or in the morning.</description>
+        <developerName>instruction_determinew0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_determinew0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Evaluate the user&apos;s maximum speed record since owning the car.</description>
+        <developerName>instruction_evaluateth1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_evaluateth1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Gather additional information if the user requests more detailed insights.</description>
+        <developerName>instruction_gatheraddi2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_gatheraddi2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Gather and analyze data to provide insights into the user&apos;s driving habits.</description>
+        <developerName>instruction_gatheranda3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_gatheranda3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Offer suggestions to optimize driving behavior based on the provided metrics.</description>
+        <developerName>instruction_offersugge4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_offersugge4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Provide the maximum speed record by considering the age of car</description>
+        <developerName>instruction_providethe5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_providethe5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>when user queries related to driving score or the area to concentrate or about driving risk score or the area to concentrate when driving an car use action Driving Score And recommendation area</description>
+        <developerName>instruction_whenuserqu6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuserqu6</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Driving Performance and Safety Metrics</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to assess the user&apos;s overall driving habits to enhance safety and optimize driving behavior. Provide comprehensive metrics and insights based on driving data.</scope>
+</GenAiPlugin>

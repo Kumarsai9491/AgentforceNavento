@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assist customers with vehicle compliance and insurance services, including checking insurance claim history, verifying BS6 compliance, and advising on minor damage repairs.</description>
+    <developerName>Compliance_and_Insurance</developerName>
+    <genAiPluginInstructions>
+        <description>Advise customers on whether minor damages like small scratches should be repaired independently or claimed through insurance.</description>
+        <developerName>instruction_advisecust0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_advisecust0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask clarifying questions to gather necessary information for insurance and compliance checks.</description>
+        <developerName>instruction_askclarify1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_askclarify1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask ContactId from the user to get the claim history details or balance Premium details.</description>
+        <developerName>instruction_askcontact2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_askcontact2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Check the customer&apos;s insurance claim history for the current year upon request.</description>
+        <developerName>instruction_checkthecu3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_checkthecu3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Get Id from the record Summary and pass it as ContactId to Get Insurance Claim Amount and Balance Amount when user ask for claim history or balance premium amount.</description>
+        <developerName>instruction_getidfromt4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_getidfromt4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a user asks about their insurance claim history, provide information for the current year.</description>
+        <developerName>instruction_ifauserask5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifauserask5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Inform users about the impact of making more than three claims per year on their insurance premiums.</description>
+        <developerName>instruction_informuser6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_informuser6</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Provide step-by-step support for customers looking to renew their motor insurance policies online.</description>
+        <developerName>instruction_provideste7</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_provideste7</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Recommend valuable motor insurance add-on covers such as Zero Depreciation, Engine Protection, Roadside Assistance, and Return to Invoice.</description>
+        <developerName>instruction_recommendv8</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_recommendv8</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use Get Insurance Claim Amount and Balance Amount action when user ask for claim history or balance premium amount.</description>
+        <developerName>instruction_usegetinsu9</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_usegetinsu9</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Verify if the customer&apos;s vehicle meets BS6 compliance standards.</description>
+        <developerName>instruction_verifyifth10</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_verifyifth10</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Compliance and Insurance</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to assist customers with checking their insurance claim history for the current year, verifying if their vehicle meets BS6 compliance standards, and providing advice on whether minor damages like small scratches should be repaired independently or claimed through insurance.</scope>
+</GenAiPlugin>

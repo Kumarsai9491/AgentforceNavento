@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Suggest EV cars to the customer based on their driving conditions. This topic handles inquiries related to recommending electric vehicles.</description>
+    <developerName>Electric_Vehicle_Recommendations</developerName>
+    <genAiFunctions>
+        <functionName>Ev_Tailor_recommendations</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query is about EV car related suggestions/recommendations, use action 
+Ev Tailor recommendations Action</description>
+        <developerName>instruction_ifthequery0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifthequery0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When response is came from Flow, for Price range, highlight the amount in bold.</description>
+        <developerName>instruction_whenrespon1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenrespon1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Also for Additional Information, Highlight it in bold and font in Italic</description>
+        <developerName>instruction_alsoforadd2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alsoforadd2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Electric Vehicle Recommendations</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only suggest EV cars to customers based on their driving conditions. You aren&apos;t able to provide financing options or make purchases.</scope>
+</GenAiPlugin>
